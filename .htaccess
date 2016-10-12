@@ -27,6 +27,3 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
-
-#Remove www
-RewriteRule ^*/watchstock$ https://benjaminstout.me/watchstock/index.php [R=301,L]
